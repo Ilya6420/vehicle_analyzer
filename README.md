@@ -93,6 +93,8 @@ When running with GPU support, the API uses the Moondream model for all features
 
 This unified approach provides better performance and consistency in results.
 
+**Note**: For car detection and identification we take query mode approach, but we can use point or detection mode and achieve the same results.
+
 #### Design Rationale
 The GPU implementation uses a single vision-language model (Moondream) for all tasks to maximize efficiency. This design choice:
 
